@@ -4,7 +4,7 @@
 [![Actividad de proyecto](https://img.shields.io/badge/Actividad-yellow)](https://github.com/alemonterx/ansible/activity)
 [![Contribuciones](https://img.shields.io/badge/Contribuciones-blue)](https://github.com/alemonterx/ansible/graphs/contributors)
 
-![PORTADA](img/portada.jpg)
+![PORTADA](img/portadaAnsible.jpg)
 
 > Este proyecto tratará sobre el uso del módulo de iptables de Ansible.
 

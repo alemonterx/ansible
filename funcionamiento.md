@@ -37,7 +37,7 @@
 ![Primera comprobación](img/comprobacion1.png)
 
 ### SEGUNDA COMPROBACIÓN:
-> Otra comprobación para el puerto 80 es haciendole un nmap a dicho puerto de ambas máquinas que se encuentran en nuestra misma red porque esto es un entorno de pruebas.
+> Otra comprobación para el puerto 80 es haciendole un nmap a dicho puerto de ambas máquinas que se encuentran en nuestra misma red porque esto es un entorno de pruebas. Comprobaremos que se encuentra en estado "filtered" y no en estado "open".
 
 ![Segunda comprobación](img/comprobacion2.png)
 

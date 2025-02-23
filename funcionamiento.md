@@ -2,7 +2,7 @@
 
 ## PREPARACIÓN DEL ENTORNO
 
-> Elaboraremos este [playbook](moduloIptables1.yaml) que nos instalará iptables y creará su archivo de reglas en nuestros servidores.
+> Elaboraremos este [playbook](moduloIptables1.yaml) que nos instalará iptables y creará su directorio por defecto para guardar el fichero de reglas en nuestros servidores.
 
 ![Playbook entorno](img/entorno.png)
 

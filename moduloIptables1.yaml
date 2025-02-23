@@ -1,0 +1,15 @@
+- name: Instalar iptables y crear archivo de reglas
+  hosts: all
+  become: true
+  
+  tasks:
+    - name: Instalar iptables
+      ansible.builtin.apt:
+        name: iptables
+        state: present
+
+    - name: Crear el directorio /etc/iptables si no existe
+      ansible.builtin.file:
+        path: /etc/iptables
+        state: directory
+        mode: '0755'

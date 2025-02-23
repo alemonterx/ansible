@@ -19,7 +19,7 @@
 ![Comprobación](img/paso1.png)
 
 ### PASO 2:
-> Elaboramos este playbook que añadirás las reglas necesarias al fichero de iptables en ambos servidores.
+> Elaboramos este [playbook](moduloIptables2.yaml) que añadirás las reglas necesarias al fichero de iptables en ambos servidores.
 
 ![Playbook iptables](img/paso2.png)
 

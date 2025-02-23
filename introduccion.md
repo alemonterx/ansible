@@ -4,7 +4,7 @@ El módulo ansible.builtin.iptables es un módulo integrado en Ansible que permi
 
 Con este módulo, puedes agregar, eliminar o modificar reglas en las tablas de iptables para controlar el tráfico de red.
 
-Características principales:
+### Características principales:
 
 * Permite gestionar reglas en las tablas filter, nat, mangle, raw y security.
 * Soporta reglas para aceptar, rechazar o descartar tráfico (ACCEPT, REJECT, DROP).

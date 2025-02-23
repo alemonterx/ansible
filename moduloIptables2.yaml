@@ -1,0 +1,21 @@
+- name: Bloquear acceso al puerto 80 y denegar el ping desde el exterior.
+  hosts: all
+  become: true
+  
+  tasks:
+    - name: Bloquear acceso al puerto 80 (HTTP)
+      ansible.builtin.iptables:
+        chain: INPUT
+        protocol: "tcp"
+        destination_port: 80
+        jump: DROP
+
+    - name: Bloquear ping (ICMP echo-request)
+      ansible.builtin.iptables:
+        chain: INPUT
+        protocol: icmp
+        icmp_type: echo-request
+        jump: DROP
+        
+    - name: Guardar reglas de nftables
+      ansible.builtin.shell: iptables-save > /etc/iptables/rules.v4

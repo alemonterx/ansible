@@ -1,4 +1,4 @@
-# INTRODUCCIÓN
+# INTRODUCCIÓN AL MÓDULO
 
 El módulo ansible.builtin.iptables es un módulo integrado en Ansible que permite gestionar reglas de firewall en sistemas Linux utilizando iptables.
 
